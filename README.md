@@ -10,9 +10,9 @@ O projeto executa um processo de ETL (Extração, Transformação e Carga) compl
 
 O fluxo dos dados foi dividido em três etapas claras:
 
-1. Extração e Tratamento: O arquivo `pipeline_dados.py` lê as tabelas fato e dimensão em CSV utilizando Pandas, aplicando limpezas e calculando o consumo médio dos veículos.
-2. Armazenamento: Os dados tratados são carregados de forma estruturada dentro do arquivo `mercado_automotivo.db` (SQLite).
-3. Automação: O arquivo `gerar_relatorio.py` executa consultas analíticas diretamente no banco SQL e exporta um arquivo Excel consolidado de forma automática.
+1. Extração e Tratamento: O arquivo `tipos_carros.py` lê as tabelas fato e dimensão em CSV utilizando Pandas, aplicando limpezas e calculando o consumo médio dos veículos.
+2. Armazenamento: Os dados tratados são carregados de forma estruturada dentro do arquivo `carros.db` (SQLite).
+3. Automação: O arquivo `relatorio.py` executa consultas analíticas diretamente no banco SQL e exporta um arquivo Excel consolidado de forma automática.
 
 ---
 
